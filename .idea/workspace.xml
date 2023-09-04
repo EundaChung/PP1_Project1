@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add loadFile()">
+    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add saveFile()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693829668572</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add saveFile()">
+      <created>1693830141127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693830141127</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +145,7 @@
     <MESSAGE value="add updateItem()" />
     <MESSAGE value="add deleteItem()" />
     <MESSAGE value="add loadFile()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add loadFile()" />
+    <MESSAGE value="add saveFile()" />
+    <option name="LAST_COMMIT_MESSAGE" value="add saveFile()" />
   </component>
 </project>
