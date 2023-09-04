@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add saveFile()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add searchLevel()">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693830141127</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add searchLevel()">
+      <created>1693830528802</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693830528802</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +152,7 @@
     <MESSAGE value="add deleteItem()" />
     <MESSAGE value="add loadFile()" />
     <MESSAGE value="add saveFile()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add saveFile()" />
+    <MESSAGE value="add searchLevel()" />
+    <option name="LAST_COMMIT_MESSAGE" value="add searchLevel()" />
   </component>
 </project>
