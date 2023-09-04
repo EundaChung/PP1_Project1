@@ -30,6 +30,18 @@ public class WordManager {
             else if(menu == 3) {
 
             }
+            else if(menu == 5){
+                //update
+                wordCRUD.updateItem();
+
+            }
+            else if(menu == 6){
+                //delete
+
+            }
+            else if(menu == 7){
+
+            }
         }
 
     }
