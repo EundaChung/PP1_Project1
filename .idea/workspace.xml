@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add deleteItem()">
-      <change afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add loadFile()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693828517924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add loadFile()">
+      <created>1693829668572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693829668572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +138,7 @@
     <MESSAGE value="edit output format" />
     <MESSAGE value="add updateItem()" />
     <MESSAGE value="add deleteItem()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deleteItem()" />
+    <MESSAGE value="add loadFile()" />
+    <option name="LAST_COMMIT_MESSAGE" value="add loadFile()" />
   </component>
 </project>
