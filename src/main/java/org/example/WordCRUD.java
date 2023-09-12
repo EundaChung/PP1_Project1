@@ -20,8 +20,6 @@ public class WordCRUD implements ICRUD {
         int level = s.nextInt();
         String word = s.nextLine();
 
-
-
         System.out.print("뜻 입력 : ");
         String meaning = s.nextLine();
 
@@ -34,23 +32,6 @@ public class WordCRUD implements ICRUD {
 
     }
 
-    @Override
-    public int update(Object obj) {
-        // TODO Auto-generated method stub
-        return 0;
-    }
-
-    @Override
-    public int delete(Object obj) {
-        // TODO Auto-generated method stub
-        return 0;
-    }
-
-    @Override
-    public void selectOne(int id) {
-        // TODO Auto-generated method stub
-
-    }
 
     public void listAll() {
         System.out.println("\n-------------------------------- ");
@@ -102,7 +83,7 @@ public class WordCRUD implements ICRUD {
         String meaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
-        System.out.println("단어가 수정되었습니다.");
+        System.out.println("단어 수정이 성공적으로 되었습니다!!");
     }
 
     public void deleteItem() {
@@ -117,7 +98,7 @@ public class WordCRUD implements ICRUD {
         String ans = s.next();
         if(ans.equalsIgnoreCase("y")){
             list.remove((int)idlist.get(id-1));
-            System.out.println("단어가 삭제되었습니다.");
+            System.out.println("선택한 단어 삭제 완료 !!!");
         }
         else{
             System.out.println("취소되었습니다. ");
@@ -132,7 +113,7 @@ public class WordCRUD implements ICRUD {
                 line = br.readLine();
                 if(line == null) break;
                 else {
-                    String data[] = line.split("\\|");
+                    String data[] = line.split("\t");
                     int level = Integer.parseInt(data[0]);
                     String word = data[1];
                     String meaning = data[2];
@@ -155,7 +136,7 @@ public class WordCRUD implements ICRUD {
                 pr.write(one.toFileString()+"\n");
             }
             pr.close();
-            System.out.println("데이 저장 완료!!!");
+            System.out.println("모든 단어 파일 저장 완료 !!!");
         } catch (IOException e) {
             e.printStackTrace();
         }

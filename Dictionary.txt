@@ -1,0 +1,23 @@
+2	abandon	버리다
+2	able	할 수 있는
+2	aboard	배로
+3	abort	유산하다
+1	about	-에 대하여
+1	above	-보다 위에
+2	abroad	외국으로
+2	absent	부재의
+2	absolute	절대의
+2	absorb	흡수하다
+2	abstract	추상적인
+3	absurd	불합리한
+2	abundant	풍부한
+2	abuse	남용
+1	academy	학술원
+2	accelerate	가속하다 속도가 가해지다
+1	accent	액센트
+2	accept	받아들이다
+2	access	접근
+1	accident	뜻밖의 사건
+2	accommodate	수용하다
+2	accompany	동반하다
+2	accomplish	이루다
