@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="edit amount of &quot;-&quot;">
+    <list default="true" id="6da2ab81-6fce-4c36-b97a-97f9d436a449" name="Changes" comment="add searchWord()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
@@ -22,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,12 +79,91 @@
       <option name="project" value="LOCAL" />
       <updated>1693824170719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edit output format">
+      <created>1693824766148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693824766148</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add updateItem()">
+      <created>1693827462275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693827462275</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add deleteItem()">
+      <created>1693828517924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693828517924</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add loadFile()">
+      <created>1693829668572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693829668572</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add saveFile()">
+      <created>1693830141127</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693830141127</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add searchLevel()">
+      <created>1693830528802</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693830528802</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add searchWord()">
+      <created>1693830703028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693830703028</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="update" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="edit amount of &quot;-&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit amount of &quot;-&quot;" />
+    <MESSAGE value="edit output format" />
+    <MESSAGE value="add updateItem()" />
+    <MESSAGE value="add deleteItem()" />
+    <MESSAGE value="add loadFile()" />
+    <MESSAGE value="add saveFile()" />
+    <MESSAGE value="add searchLevel()" />
+    <MESSAGE value="add searchWord()" />
+    <option name="LAST_COMMIT_MESSAGE" value="add searchWord()" />
   </component>
 </project>

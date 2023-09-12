@@ -11,6 +11,7 @@ public class WordManager {
     }
 
     public void start() {
+        wordCRUD.loadFile();
         System.out.println("*** 영단어 마스터 ***\n");
         while(true) {
             int menu = selectMenu();
@@ -19,15 +20,27 @@ public class WordManager {
                 break;
             }
             if(menu == 4) {
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
             else if(menu == 1) {
                 wordCRUD.listAll();
             }
             else if(menu == 2) {
-
+                wordCRUD.searchLevel();
             }
             else if(menu == 3) {
+                wordCRUD.searchWord();
+            }
+            else if(menu == 5){
+                //update
+                wordCRUD.updateItem();
+            }
+            else if(menu == 6){
+                //delete
+                wordCRUD.deleteItem();
+            }
+            else if(menu == 7){
+                wordCRUD.saveFile();
 
             }
         }
@@ -35,7 +48,6 @@ public class WordManager {
     }
     public int selectMenu() {
         System.out.print("********************\n1. 모든 단어 보기\n2. 수준별 단어 보기\n3. 단어 검색\n4. 단어 추가\n5. 단어 수정\n6. 단어 삭제\n7. 파일 저장\n0. 나가기\n********************\n=> 원하는 메뉴는? ");
-
         return s.nextInt();
     }
 

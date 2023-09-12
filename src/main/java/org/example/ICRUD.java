@@ -1,8 +1,18 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public interface ICRUD {
-    public Object add();
-    public int update(Object obj);
-    public int delete(Object obj);
-    public void selectOne(int id);
+    Object add();
+    void addItem();
+    void listAll();
+    ArrayList<Integer> listAll(String keyword);
+    void listAll(int level);
+    void updateItem();
+    void deleteItem();
+    void loadFile();
+    void saveFile();
+    void searchLevel();
+    void searchWord();
+
 }
